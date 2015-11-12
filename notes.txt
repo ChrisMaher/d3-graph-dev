@@ -1,0 +1,27 @@
+Sales
+
+Spoilage
+
+http://www.highcharts.com/demo/line-ajax
+
+Promotions
+
+Sales Breakdown by County
+
+Double height with all 32 counties for 12 months
+Double height Box Chart all 32 counties for 12 months
+
+4 x Breakdown by Provinces
+
+Top Sales Per Month
+
+ShellTypes, Counties, Sum of Profit for each can in each county monthly
+
+Select SUM(Profit) as SumProfit From FactSales GROUP BY ShellType, SaleMonth
+
+change of pricing 
+new competitior
+new employee
+Show me something i didnt know before
+help me predict into the future
+
