@@ -5,7 +5,7 @@ if (!$con) {
   die('Could not connect: ' . mysql_error());
 }
 
-mysql_select_db("sales", $con);
+mysql_select_db("datawarehousing", $con);
 
 // NEEDS NEW GRAPH TYPE THAT SUITS COUNTY
 $sth = mysql_query("SELECT SaleMonth, SUM(Profit) as profitSum FROM FactSales WHERE ShellType='Coke' GROUP BY SaleMonth");

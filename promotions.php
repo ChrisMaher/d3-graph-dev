@@ -25,15 +25,16 @@ content="width=device-width, initial-scale=1">
  <script src="http://code.highcharts.com/stock/highstock.js"></script>
 
  <script src="js/promotions/combined.js?n=1"></script>
- <script src="js/sales/coke.js?n=19"></script>
- <script src="js/sales/fanta.js?n=19"></script>
- <script src="js/sales/lucozade.js?n=19"></script>
- <script src="js/sales/monster.js?n=19"></script>
- <script src="js/sales/rockstar.js?n=19"></script>
- <script src="js/sales/sprite.js?n=19"></script>
- <script src="js/sales/provinces.js?n=19"></script>
- <script src="js/sales/7up.js?n=19"></script>
- <script src="js/sales/combined-sales-box.js?n=19"></script>
+ <script src="js/promotions/7up.js?n=19"></script>
+ <script src="js/promotions/fanta.js?n=19"></script>
+ <script src="js/promotions/monster.js?n=19"></script>
+ <script src="js/promotions/sprite.js?n=19"></script>
+
+ // <!-- <script src="js/sales/coke.js?n=19"></script>
+ // <script src="js/sales/lucozade.js?n=19"></script>
+ // <script src="js/sales/rockstar.js?n=19"></script> 
+ // <script src="js/sales/provinces.js?n=19"></script> 
+ // <script src="js/sales/combined-sales-box.js?n=19"></script> -->
 
   </head>
  <body>
@@ -42,12 +43,26 @@ content="width=device-width, initial-scale=1">
 
   <div class="container-fluid">
 
-    
-
-
     <div class="col-md-12"
       <div id="chart-combined"  style="min-width: 310px; height: 400px; margin: 0 auto"></div>
     </div></br>
+
+      <div class="col-md-6"
+       <div id="chart-7Up"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
+    </div>
+
+     <div class="col-md-6"
+       <div id="chart-fanta"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
+    </div> 
+
+     <div class="col-md-6"
+       <div id="chart-monster"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
+    </div>
+
+     <div class="col-md-6"
+       <div id="chart-sprite"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
+    </div>
+
 
  <!--    <div class="col-md-12"
        <div id="chart-box-combined"  style="min-width: 310px; height: 400px; margin: 0 auto"></div>
@@ -57,30 +72,16 @@ content="width=device-width, initial-scale=1">
        <div id="chart-coke"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
     </div>
 
-    <div class="col-md-6"
-       <div id="chart-7Up"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
-    </div>
 
-    <div class="col-md-6"
-       <div id="chart-fanta"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
-    </div> -->
-
-    <!-- <div class="col-md-6"
-       <div id="chart-7up"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
-    </div> -->
 
 <!--     <div class="col-md-6"
        <div id="chart-lucozade"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
     </div>
-    <div class="col-md-6"
-       <div id="chart-monster"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
-    </div>
+   
     <div class="col-md-6"
        <div id="chart-rockstar"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
     </div>
-    <div class="col-md-6"
-       <div id="chart-sprite"  style="min-width: 310px; height: 300px; margin: 0 auto"></div>
-    </div>
+   
 
     <div class="col-md-12"
       <div id="provinces"  style="min-width: 310px; height: 400px; margin: 0 auto"></div>

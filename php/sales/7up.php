@@ -5,9 +5,9 @@ if (!$con) {
   die('Could not connect: ' . mysql_error());
 }
 
-mysql_select_db("sales", $con);
+mysql_select_db("datawarehousing", $con);
 
-$sth = mysql_query("SELECT SaleMonth, SUM(Profit) as profitSum FROM FactSales WHERE ShellType='7Up' GROUP BY SaleMonth");
+$sth = mysql_query("SELECT SaleMonth, SUM(Profit) as profitSum FROM factsales WHERE ShellType='7Up' GROUP BY SaleMonth");
 $rows1 = array();
 $rows1['name'] = '7up';
 while($rr = mysql_fetch_assoc($sth)) {

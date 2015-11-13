@@ -5,7 +5,7 @@ if (!$con) {
   die('Could not connect: ' . mysql_error());
 }
 
-mysql_select_db("sales", $con);
+mysql_select_db("datawarehousing", $con);
 
 // $sth = mysql_query("SELECT SUM(Profit) as profits, County, SaleMonth FROM FactSales GROUP BY County, SaleMonth);
 // $rows = array();

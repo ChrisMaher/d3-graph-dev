@@ -5,7 +5,7 @@ if (!$con) {
   die('Could not connect: ' . mysql_error());
 }
 
-mysql_select_db("sales", $con);
+mysql_select_db("datawarehousing", $con);
 
 $sth = mysql_query("SELECT SaleMonth, SUM(Profit) as profitSum FROM FactSales WHERE Province='Leinster' GROUP BY SaleMonth");
 $rows1 = array();

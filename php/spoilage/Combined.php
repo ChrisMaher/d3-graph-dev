@@ -5,7 +5,7 @@ if (!$con) {
   die('Could not connect: ' . mysql_error());
 }
 
-mysql_select_db("sales", $con);
+mysql_select_db("datawarehousing", $con);
 
 $sth = mysql_query("SELECT SUM(Spoilage) as spoilageSum FROM factspoilage GROUP BY SpoilageMonth");
 $rows = array();
@@ -31,3 +31,4 @@ print json_encode($result, JSON_NUMERIC_CHECK);
 
 mysql_close($con);
 ?>
+

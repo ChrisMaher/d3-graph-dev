@@ -27,11 +27,15 @@ $(function () {
 	                    text: 'Sales(Units)'
 	                },
 	                plotLines: [{
-	                    value: 0,
-	                    width: 1,
-	                    color: '#808080'
+	                    value: 14700000,
+	                    width: 2,
+	                    color: '#808080',
+	                    label: {
+                        text: 'Year Average (14.7m)'
+                    }
 	                }]
 	            },
+	          
 	            tooltip: {
                 formatter: function() {
                         // return '<b>' + this.series.xAxis.categories[this.point.x] + '</b> we sold <br><b>' +
