@@ -38,8 +38,7 @@ $(function () {
                         //     this.y + '</b>-<br><b> Shells</b>';
 
                             
-
-                            		if(this.series.xAxis.categories[this.point.x] == 'Oct'){return this.y + ' Spoiled <br> <b>1)</b> World Cup Brazil <br> <b>2)</b> Rugby World Cup <br> <b>3)</b> All Ireland Football Final <br> <b>4)</b> All Ireland Hurling Final <br> <b>5)</b> All Ireland Hurling Final Replay';}
+                        			if(this.series.xAxis.categories[this.point.x] == 'Oct'){return this.y + ' Spoiled <br> <b>1)</b> World Cup Brazil <br> <b>2)</b> Rugby World Cup <br> <b>3)</b> All Ireland Football Final <br> <b>4)</b> All Ireland Hurling Final <br> <b>5)</b> All Ireland Hurling Final Replay';}
                             		else if(this.series.xAxis.categories[this.point.x] == 'Mar'){return this.y + ' Spoiled <br> <b>1)</b> Winter Olympics';}
                             		else if(this.series.xAxis.categories[this.point.x] == 'Jul'){return this.y + ' Spoiled <br><b>1)</b> PGA Tour';}                   		
                             		else{return this.y + ' Spoiled <br> No Event';}

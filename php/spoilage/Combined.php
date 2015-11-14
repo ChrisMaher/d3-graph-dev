@@ -7,7 +7,7 @@ if (!$con) {
 
 mysql_select_db("datawarehousing", $con);
 
-$sth = mysql_query("SELECT SUM(Spoilage) as spoilageSum FROM factspoilage GROUP BY SpoilageMonth");
+$sth = mysql_query("SELECT SpoilageMonth, SUM(Spoilage) as spoilageSum FROM factspoilage GROUP BY SpoilageMonth Order by FullDate");
 $rows = array();
 $rows['name'] = 'Spoilage';
 while($rr = mysql_fetch_assoc($sth)) {

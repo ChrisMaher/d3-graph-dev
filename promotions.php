@@ -24,7 +24,7 @@ content="width=device-width, initial-scale=1">
  <script src="http://code.highcharts.com/modules/data.js"></script>
  <script src="http://code.highcharts.com/stock/highstock.js"></script>
 
- <script src="js/promotions/combined.js?n=1"></script>
+ <script src="js/promotions/combined.js?n=2"></script>
  <script src="js/promotions/7up.js?n=19"></script>
  <script src="js/promotions/fanta.js?n=19"></script>
  <script src="js/promotions/monster.js?n=19"></script>
